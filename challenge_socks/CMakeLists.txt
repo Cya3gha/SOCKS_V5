@@ -15,7 +15,7 @@ endif()
 
 # TODO: Add tests and install targets if needed.
 
-set(ASIO_INCLUDE_DIR "${CMAKE_CURRENT_SOURCE_DIR}\\..\\asio-1.30.2\\include")
+set(ASIO_INCLUDE_DIR "${CMAKE_CURRENT_SOURCE_DIR}\\..\\asio-*\\include")
 include_directories(${ASIO_INCLUDE_DIR})
 
 target_link_libraries(challenge_socks PRIVATE Ws2_32)

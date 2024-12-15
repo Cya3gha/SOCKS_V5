@@ -57,11 +57,12 @@ L'outil est conçu pour être utilisé comme proxy avec des navigateurs web tels
 1. Ouvrez une invite de commande
 2. Placer vous dans le dossier SOCKS_V5
 3. Exécutez les commandes suivantes :
-   ```bash
-   mkdir build
-   cd build
-   cmake ../challenge_socks
-   cmake --build .```
+```bash
+mkdir build
+cd build
+cmake ../challenge_socks
+cmake --build .
+```
 
 4. L'exécutable sera généré dans le répertoire `build\Debug`.
 
@@ -80,16 +81,16 @@ build\challenge_socks.exe
 #### Étapes de compilation
 1. Installez les outils nécessaires (si non déjà installés) :
 ```bash
-   sudo apt update
-   sudo apt install build-essential cmake
+sudo apt update
+sudo apt install build-essential cmake
 ```
 
 2. Exécutez les commandes suivantes dans un powershell:
  ```bash
-    mkdir build
-    cd build
-    cmake ..
-    make
+mkdir build
+cd build
+cmake ..
+make
 ```
 
 3. L'exécutable sera généré dans le répertoire `build\Debug`.
