@@ -1,5 +1,29 @@
 # Serveur Proxy SOCKS v5
 
+# Sommaire
+
+1. [Description du projet](#1-description-du-projet)
+   - [Fonctionnalités principales](#fonctionnalités-principales)
+
+2. [Méthodes d'utilisation](#2-méthodes-dutilisation)
+   - [Prérequis](#prérequis)
+   - [Installation de ASIO](#installation-de-asio)
+   - [Utilisation sous Windows](#utilisation-sous-windows)
+     - [Étapes de compilation](#étapes-de-compilation)
+     - [Exécution](#exécution)
+   - [Utilisation sous Linux](#utilisation-sous-linux)
+     - [Étapes de compilation](#étapes-de-compilation-1)
+     - [Exécution](#exécution-1)
+
+3. [Configuration du navigateur](#configuration-du-navigateur)
+   - [Firefox](#firefox)
+   - [Chrome](#chrome)
+
+4. [Installation de CMake sur CMD (Windows)](#installation-de-cmake-sur-cmd-windows)
+
+5. [Exemple d'utilisation](#exemple-dutilisation)
+
+
 ## 1. Description du projet
 
 Ce projet implémente un serveur proxy SOCKS v5 conformément à la [RFC 1928](https://www.rfc-editor.org/rfc/rfc1928). Le serveur supporte uniquement la commande `CONNECT` et n'exige aucune authentification. Il permet de relier un client SOCKS à une destination réseau via un pivot SOCKS, assurant une communication bidirectionnelle concurrentielle entre le client et le serveur distant.
@@ -39,7 +63,7 @@ L'outil est conçu pour être utilisé comme proxy avec des navigateurs web tels
    cmake ../challenge_socks
    cmake --build .```
 
-4. L'exécutable sera généré dans le répertoire `build`.
+4. L'exécutable sera généré dans le répertoire `build\Debug`.
 
 Si vous n'avez pas installé CMake sur Windows, veuillez-vous référer à cette section : `[Installation de CMake sur CMD (Windows)]`
 
@@ -68,7 +92,7 @@ build\challenge_socks.exe
     make
 ```
 
-3. L'exécutable sera généré dans le répertoire `build`.
+3. L'exécutable sera généré dans le répertoire `build\Debug`.
 
 #### Exécution
 
