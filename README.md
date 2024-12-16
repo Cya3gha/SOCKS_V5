@@ -66,7 +66,7 @@ cmake --build .
 
 4. L'exécutable sera généré dans le répertoire `build\Debug`.
 
-Si vous n'avez pas installé CMake sur Windows, veuillez-vous référer à cette section : `[Installation de CMake sur CMD (Windows)]`
+Si vous n'avez pas installé CMake sur Windows, veuillez-vous référer à cette section : [Installation de CMake sur CMD (Windows)](#installation-de-cmake-sur-cmd-windows)
 
 #### Exécution
 Pour démarrer le serveur, exécutez la commande suivante :
