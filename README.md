@@ -153,6 +153,6 @@ de votre ordinateur. ( ou copiez simplement ce lien : chrome://settings/system)
 
 ## Exemple d'utilisation
 
-Une fois le serveur en cours d'exécution, configurez votre navigateur ou un autre client SOCKS pour utiliser le proxy et testez l'accès à un site web (par exemple, https://www.lemonde.fr).
+Une fois le serveur en cours d'exécution, configurez votre navigateur pour utiliser le proxy et testez l'accès à un site web (par exemple, https://www.lemonde.fr).
 
 
